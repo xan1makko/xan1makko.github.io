@@ -1,0 +1,176 @@
+
+.loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url('images/pageLoader.gif') 50% 50% no-repeat rgb(0, 0, 0);
+  opacity: .9;
+}
+
+.superior {
+  background: rgb(11, 36, 46);
+  background: linear-gradient(90deg, rgb(7, 30, 39) 0%, rrgb(5, 46, 43)100%);
+  overflow: hidden;
+  align-items: center;
+  position:sticky;
+  top: 0px;
+  z-index: 10;
+}
+.superior .navegacion{
+  text-align: center;
+  justify-content: center;
+}
+.superior a{
+    padding: 25px 20px;
+    float: left;
+    display: block;
+    color: #fffff8;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    text-shadow: .2px .2px 2px #141414;
+}
+.superior a:hover {
+    background-color: rgb(37, 182, 170);
+    text-shadow: 2px 2px 3px #141414;
+}
+.logo {
+    float: left;
+    padding: 19px 20px;
+    height: 30px; 
+}
+.logo img {
+    height: 100%;
+}
+
+
+
+html{
+  background-color: #050503;
+}
+
+h1,h2,h3,h4,h5{
+  color: rgba(37, 182, 170);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.normal{
+  font-size: 5vh;
+}
+h6{
+  color:#3a3a3a;
+}
+
+
+p, a{
+  font-family:Arial, Helvetica, sans-serif;
+  color: #fffff8;
+  text-decoration: none;
+  max-width: 55vh;
+}
+
+p{
+  font-size: 3vh;
+  text-align: left;
+}
+
+
+.hola{
+  margin-bottom: 0;
+  margin-top:0px;
+  padding-top: 0px;
+  padding-bottom: 0;
+}
+
+main .banner{
+  position: relative;
+  widows: 100%;
+  height: calc(108vh - 50px);
+  background-image: url("https://github.com/xan1makko/baby.github.io/blob/main/IMG%20/banner/banner.jpg?raw=true");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+h1{
+  font-size: 11vh;
+  text-shadow: 3px 3px 1px #141414;
+  color:#fffff8;
+  transition: all 0.2s ease-in-out;
+}
+h1:hover{
+  text-shadow: 2px 2px 3px #797979;
+}
+main .capa{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(1, 0, 8, 0.75);
+  background: radial-gradient(rgba(27, 21, 53, 0.6), rgba(1, 0, 8, 0.75) )}
+main .contenido{
+  margin:0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  color: #fffff8;
+}
+
+main .contenido{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+body::-webkit-scrollbar{
+  width: 7px;
+}
+body::-webkit-scrollbar-thumb{
+  background-color: rgba(37, 182, 170, .2);
+  border-radius: 10px;
+  border-right: 2px solid rgba(37, 182, 170 .2);;
+}
+main .page{
+  margin: 2%;
+  text-align: justify;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+}
+.main{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.normal {
+  text-align: left;
+  margin-top: 11vh;
+}
+#first{
+  margin-top:4vh
+}
+
+.page {
+  width: 50%;
+  padding-left: 20px;
+  padding-top: 1px;
+  display:inline-block;
+  text-justify: center;
+  justify-content: center;
+  background-color: #0c0c0c;
+}
+
+
+.img1{
+  background-image: url("https://images.pexels.com/photos/450062/pexels-photo-450062.jpeg");
+  width: 50vh;
+  height: 50vh;
+  background-size: cover;
+  border: #ffffff solid 1px;
+}
